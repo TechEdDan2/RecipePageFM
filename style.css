@@ -1,5 +1,9 @@
 /* CSS Variables */
 :root {
+    /* Primary */
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    /* Neutral */
     --White: hsl(0, 0%, 100%);
     --Rose-White: hsl(330, 100%, 98%);
     --Eggshell: hsl(30, 54%, 90%);
@@ -8,17 +12,84 @@
     --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    font-family: var(--Project-Font);
+    background-color: var(--Eggshell);
 }
 
 main {
     width: 100%;
+    background-color: var(--White);
+    padding: 1rem;
+    color: var(--Wenge-Brown);
+}
+
+.img_desktop {
+    display: none;
+}
+
+section {}
+
+span {
+    font-weight: 700;
+}
+
+article {
+    background-color: var(--Rose-White);
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+h2 {
+    color: var(--Nutmeg);
+}
+
+h3 {
+    color: var(--Dark-Raspberry);
+}
+
+ol li::marker {
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th:nth-child(-n +3),
+td:nth-child(-n +3) {
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
+    color: var(--Nutmeg);
+    font-weight: 700;
 }
 
 /* Attribution */
@@ -34,9 +105,22 @@ main {
 /* Desktop */
 @media(min-width: 600px) {
     main {
+        margin-top: 10%;
         display: flex;
-        width: 400px;
+        width: 675px;
         flex-direction: row;
         flex-wrap: wrap;
+        border-radius: 1.25rem;
     }
+
+    .img_mobile {
+        display: none;
+    }
+
+    .img_desktop {
+        display: inline;
+        border-radius: 0.75rem;
+    }
+
+
 }
