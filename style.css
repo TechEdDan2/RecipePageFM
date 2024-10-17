@@ -40,24 +40,46 @@ body {
 main {
     width: 100%;
     background-color: var(--White);
-    padding: 1rem;
+    padding: 1.5rem;
     color: var(--Wenge-Brown);
+    line-height: 1.5;
 }
 
 .img_desktop {
     display: none;
 }
 
-section {}
+section {
+    margin: 1rem 0;
+}
+
+section p {
+    margin: 1.75rem 0;
+}
+
+section:nth-child(2),
+section:nth-child(3) {
+    border-bottom: 1px solid var(--Light-Grey);
+    padding-bottom: 1.25rem;
+}
 
 span {
     font-weight: 700;
 }
 
 article {
+    margin-top: 1rem;
     background-color: var(--Rose-White);
     padding: 0.75rem;
     border-radius: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1.75;
+}
+
+h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: var(--Dark-Charcoal);
 }
 
 h2 {
@@ -78,8 +100,8 @@ table {
     text-align: left;
 }
 
-th:nth-child(-n +3),
-td:nth-child(-n +3) {
+th:nth-child(-n + 2),
+td:nth-child(-n + 2) {
     border-bottom: 1px solid var(--Light-Grey);
 }
 
@@ -103,7 +125,7 @@ td {
 }
 
 /* Desktop */
-@media(min-width: 600px) {
+@media(min-width: 625px) {
     main {
         margin-top: 10%;
         display: flex;
