@@ -1,3 +1,26 @@
+/* CSS Variables */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: var(--Project-Font);
+}
+
+main {
+    width: 100%;
+}
+
 /* Attribution */
 .attribution {
     font-size: 11px;
@@ -6,4 +29,14 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Desktop */
+@media(min-width: 600px) {
+    main {
+        display: flex;
+        width: 400px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
