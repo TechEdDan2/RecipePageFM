@@ -26,7 +26,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/TechEdDan2/RecipePageFM)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://techeddan2.github.io/RecipePageFM/)
 
 ## My process
 I started with the mobile design first, then worked my way up to the desktop design. I used a combination of flexbox and grid to achieve the desired layout. I used semantic HTML5 elements to structure the content and CSS custom properties for colors and fonts. I also made sure to use a mobile-first workflow to ensure the site is responsive and looks good on all devices.
