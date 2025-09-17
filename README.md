@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/TechEdDan2/RecipePageFM)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -42,7 +42,7 @@ I started with the mobile design first, then worked my way up to the desktop des
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
+I learned how to use CSS Grid to create a responsive layout. I also learned how to use CSS custom properties to manage colors and fonts more efficiently. Additionally, I improved my skills in using semantic HTML5 elements to structure the content of the page.
 
 
 ## Author
